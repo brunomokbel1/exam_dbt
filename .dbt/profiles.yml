@@ -1,7 +1,7 @@
 dbt_exam:
   outputs:
     dev:
-      account: FI58115
+      account: DWPVANY-FI58115
       database: DB_DST_EXAM
       password: P8zkE4aKxkNsq7H
       role: ACCOUNTADMIN
