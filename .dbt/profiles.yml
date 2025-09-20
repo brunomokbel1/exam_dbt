@@ -8,6 +8,6 @@ dbt_exam:
       schema: PUBLIC
       threads: 1
       type: snowflake
-      user: bruno
+      user: BRM01
       warehouse: WAREHOUSE_DST
   target: dev
