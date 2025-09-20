@@ -5,7 +5,7 @@ dbt_exam:
       database: DB_DST_EXAM
       password: P8zkE4aKxkNsq7H
       role: ACCOUNTADMIN
-      schema: PUBLIC
+      schema: STAR_SCHEMA
       threads: 1
       type: snowflake
       user: BRM01
