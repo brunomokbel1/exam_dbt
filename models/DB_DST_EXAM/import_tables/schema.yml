@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: DB_DST_EXAM
+    description: "Import des données normalisées"
+    database: DB_DST_EXAM
+    schema: PUBLIC
+    tables:
+      - name: ALBUM
+        description: "Import de la table ALBUM"
+      - name: TRACK
+        description: "Import de la table TRACK"
+      - name: ARTIST
+        description: "Import de la table ARTIST"
+      - name: PLAYLIST
+        description: "Import de la table PLAYLIST"
+      - name: PLAYLISTTRACK
+        description: "Import de la table PLAYLISTTRACK"
+      - name: GENRE
+        description: "Import de la table GENRE"
+      - name: MEDIATYPE
+        description: "Import de la table MEDIATYPE"
